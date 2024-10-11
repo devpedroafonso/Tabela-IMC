@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-b">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c303645144.js" crossorigin="anonymous"></script>
+    <title>IMC</title>
+</head>
+<body>
+
+  <header>
+    <h1>IMC</h1>
+    <h1>Índice de Massa Corporal</h1>
+  </header> 
+  
+  <main>
+    <section class="imc">
+        <img src="imagen/imc.jpg" alt="imagem ilustrativa">
+        <section class="form">
+            <h3>Calcule o seu IMC</h3>
+            <form>
+
+                <section class="campo">
+                    <label for="name">Nome</label>
+                    <input type="text" name="nome" id="name" placeholder="Digite seu nome" required>
+                </section>
+
+                <section class="campo">
+                    <label for="weight">Peso</label>
+                    <input type="number" name="peso" id="weight" value="30" step="1" min="30" max="400" required>
+                </section>
+
+                <section class="campo">
+                    <label for="heigth">Altura(m)</label>
+                    <input type="number" nome="altura" id="heigth" value="1.5" step="0.01" min="1.0" max="2.50"
+                    required>
+                </section>
+
+                <section>
+                    <button> Calcular </button>
+                </section>
+                
+            </form>
+        </section>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+        <p>Desenvolvido por Pedro Afonso &reg;</p>
+    </section>
+    <section class="git">
+        <a href="https://github.com/devpedroafonso" target="_blank" rel="extenal"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/devpedroafonso" target="_blank" rel="extenal">devpedoafonso</a>
+    </section>
+  </footer>
+
+</body>
+</html>
